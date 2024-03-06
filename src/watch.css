@@ -1,0 +1,58 @@
+*{
+    background-color: rgb(15, 15, 15);
+}
+
+#clock{
+    /* box-shadow: 1px 1px 1px 1px rgb(143, 4, 4); */
+    margin-top: 10%;
+    height:200px;
+    width:200px;
+    /* border:2px solid rgb(244, 16, 16); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    background-image: url("https://png.pngtree.com/png-clipart/20230227/ourmid/pngtree-clock-face-no-hands-gold-shiny-png-image_6622617.png");
+    background-size: cover;
+    background-repeat: no-repeat;}
+.hand{
+    position: absolute;
+    bottom: 50%;
+    transform-origin: bottom;
+   }
+.second{
+    height:65px;
+    width:2px;
+    background-color: rgb(158, 41, 31);
+}
+.minut{
+    height:51px;
+    width:3px;
+    background-color: rgb(173, 145, 45);
+}
+.hour{
+    height:30px;
+    width:3px;
+    background-color: rgb(173, 145, 45);
+}
+#border{
+    height: 50px;
+    width: 200px;
+    border: 2px solid rgb(24, 231, 27);
+    /* box-shadow: 2px 5px  fuchsia ; */
+
+    box-shadow: 0 0 6px 6px rgb(82, 189, 50); 
+  
+    transition: clor 3s ;
+    margin: 20px;
+    border-radius: 10px; 
+}
+.time{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(188, 28, 28);
+    margin-top: 0.5%;
+    border: none;
+    border-radius: 50%;
+}
